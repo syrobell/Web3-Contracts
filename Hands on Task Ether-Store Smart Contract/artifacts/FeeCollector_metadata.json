@@ -1,0 +1,99 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "balance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address payable",
+						"name": "destAddr",
+						"type": "address"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Desktop/Web3/Hands on Task Ether-Store Smart Contract/FeeCollector.sol": "FeeCollector"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Desktop/Web3/Hands on Task Ether-Store Smart Contract/FeeCollector.sol": {
+			"keccak256": "0x415bee2009f3d59bb409471b1db91b2b9f3b197709ea9812faca284713a90cef",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a406f8a22cbbbe58db6dbce7efa6fd3558d98d69fe421a64f3bdb316c8acd93e",
+				"dweb:/ipfs/QmTWJcV3MRxdEFzCX4hi4CryCySdNFNcz2ghHUgnvst3y4"
+			]
+		}
+	},
+	"version": 1
+}
